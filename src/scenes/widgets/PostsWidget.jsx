@@ -36,7 +36,7 @@ const PostsWidget = ({ userId, isProfile = false }) => {
       getPosts();
     }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
-  console.log(posts)
+
   return (
     <>
       {posts.map(

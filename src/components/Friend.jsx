@@ -61,7 +61,6 @@ const Friend = ({ friendId, name, date, subtitle, userPicturePath }) => {
           </Typography>
           <Typography color={medium} fontSize="0.75rem">
             {new Date(date).toLocaleString()}
-
             {" | "}
             {subtitle}
           </Typography>
