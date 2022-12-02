@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, date, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://social-media-tester.herokuapp.com/users/${_id}/${friendId}`,
+      `https://social-media-9fj8.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
